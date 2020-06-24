@@ -10,33 +10,54 @@
 </head>
 
 <body>
-    <section class="hero is-dark is-fullheight">
-        <div class="hero-body">
-            <div class="container has-text-centered">
-                <h1 class="title">
-                    Playing for Equality: Project Justice
-                </h1>
+    <div id="body-div" class="has-background-dark">
+        <section class="hero is-dark is-medium">
+            <div class="hero-body">
+                <div class="container has-text-centered">
+                    <h1 class="title">
+                        Playing for Equality: Project Justice
+                    </h1>
+                    <div id="twitch-embed" class="center-content"></div>
+                </div>
             </div>
-        </div>
-        <div class="hero-body">
-            <div id="twitch-embed"></div>
-        </div>
-        <div class="hero-foot">
-            
-        </div>
-    </section>
+        </section>
+
+        <section class="container has-text-white">
+            <div class="has-text-centered">
+                <p>
+                    Playing for Equality: Project Justice is a 24-hour game stream marathon with one goal, to raise awareness and
+                    help organizations invovled in the effort to dismantle racist idealogies present in today's society. 
+                </p>
+            </div>
+
+            <div class="columns is-centered">
+                <div class="column">
+                    
+                </div>
+                <div class="column">
+                    
+                </div>
+                <div class="column">
+                    
+                </div>
+                <div class="column">
+                    
+                </div>
+            </div>
+        </section>
+    </div>
 </body>
 
 <script src="https://embed.twitch.tv/embed/v1.js"></script>
 <script type="text/javascript">
     new Twitch.Embed("twitch-embed", {
-      width: 854,
-      height: 480,
-      channel: "seePhor",
-      layout: "video",
-      allowfullscreen: true,
-      theme: "dark",
-      parent: ["ashgh.github.io"]
+        width: 854,
+        height: 480,
+        channel: "seePhor",
+        layout: "video",
+        allowfullscreen: true,
+        theme: "dark",
+        parent: ["ashgh.github.io"]
     });
 </script>
 
