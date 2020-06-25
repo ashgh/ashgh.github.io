@@ -7,6 +7,7 @@
     <title>Hello Bulma!</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <script type="text/javascript" src="scripts.js"></script>  
 </head>
 
 <body>
@@ -17,33 +18,114 @@
                     <h1 class="title">
                         Playing for Equality: Project Justice
                     </h1>
-                    <div id="twitch-embed" class="center-content"></div>
-                </div>
             </div>
+
+            <div class="twitch">
+                <div class="twitch-video">
+                  <iframe
+                    src="https://player.twitch.tv/?channel=seePhor"
+                    frameborder="0"
+                    scrolling="no"
+                    allowfullscreen="true"
+                    height="60%"
+                    width="100%">
+                  </iframe>
+                </div>
+                <div class="twitch-chat">
+                  <iframe
+                    frameborder="0"
+                    scrolling="no"
+                    src="https://www.twitch.tv/embed/phil_nash/chat"
+                    height="100%"
+                    width="100%">
+                  </iframe>
+                </div>
+              </div>                      
+            </div>
+
         </section>
 
         <section class="container has-text-white">
-            <div class="has-text-centered">
+            <div class="tabs is-centered is-boxed">
+                <ul>
+                  <li class="is-active"><a onclick="handleTabChange(1)">About</a></li>
+                  <li><a onclick="handleTabChange(2)">Where to Donate</a></li>
+                  <li><a onclick="handleTabChange(3)">Game Schedule</a></li>
+                </ul>
+            </div>
+
+            <div id="about-content" class="has-text-centered has-text-white">
                 <p>
-                    Playing for Equality: Project Justice is a 24-hour game stream marathon with one goal, to raise awareness and
-                    help organizations invovled in the effort to dismantle racist idealogies present in today's society. 
+                    <b>Playing for Equality: Project Justice</b> is a 24-hour game stream marathon with one goal, to raise awareness and
+                    help organizations invovled in the effort to dismantle racist idealogies present in today's society. We will be 
+                    live streaming starting at <b>July&nbsp;11th&nbsp;2020&nbsp;8AM&nbsp;PST.</b> If you want to help out, you have a couple options.
+                    If you dontate to us directly, we will work with Amazon to match all donations made before July 6th. If you don't want to dontate to
+                    us, we have provided many links below to vetted organizations broken up by category. Anything helps!
                 </p>
             </div>
 
-            <div class="columns is-centered">
-                <div class="column">
-                    
+            <div id="link-content">
+                <div class="columns is-centered">
+                    <div class="column">
+                        <h5 class="title is-5 has-text-white">Victim Memorial Funds</h5>
+                        <a href="https://www.gofundme.com/f/elijah-mcclain">Elijah McClain Mother's GoFundMe</a><br/>
+                        <a href="https://www.gofundme.com/f/community-support-for-robert-fuller">Community Support for Robert Fuller</a><br/>
+                        <a href="https://www.gofundme.com/f/official-gofundme-for-rayshard-brooks">Rayshard Brooks Memorial Fund</a><br/>
+                        <a href="https://www.gofundme.com/f/dominiquefells">Dominique “Rem’mie” Fells Funeral Costs</a><br/>
+                        <a href="https://www.gofundme.com/f/georgefloyd">George Floyd Memorial Fund</a><br/>
+                        <a href="https://www.gofundme.com/f/i-run-with-maud">I Run With Maud</a><br/>
+                        <a href="https://www.gofundme.com/f/for-james-scurlocks-family">James Scurlock Memorial Fund</a><br/>
+                        <a href="https://www.gofundme.com/f/in-memory-of-tony-mcdade">Tony Mcdade Memorial Fund</a><br/>
+                        <a href="https://www.gofundme.com/f/justicefordavidmcatee">David McAtee Memorial Fund</a><br/>
+                        <a href="https://www.gofundme.com/f/9v4q2-justice-for-breonna-taylor">Justice for Breonna Taylor</a><br/>
+                        <a href="https://www.gofundme.com/f/gianna-floyd-daughter-of-george-floyd-fund">Gianna Floyd Fund</a><br/>
+                    </div>
+                    <div class="column">
+                        <h5 class="title is-5 has-text-white">Bail Funds</h5>
+                    </div>
+                    <div class="column">
+                        <h5 class="title is-5 has-text-white">Mega Funds</h5>
+                    </div>
+                    <div class="column">
+                        <h5 class="title is-5 has-text-white">Community Restoration</h5>
+                    </div>
                 </div>
-                <div class="column">
-                    
+    
+                <div class="columns is-centered">
+                    <div class="column">
+                        <h5 class="title is-5 has-text-white">Community Enrichment</h5>
+                    </div>
+                    <div class="column">
+                        <h5 class="title is-5 has-text-white">Youth-oriented</h5>
+                    </div>
+                    <div class="column">
+                        <h5 class="title is-5 has-text-white">Policy Reform</h5>
+                    </div>
+                    <div class="column">
+                        <h5 class="title is-5 has-text-white">Political</h5>
+                    </div>
                 </div>
-                <div class="column">
-                    
-                </div>
-                <div class="column">
-                    
+    
+                <div class="columns is-centered">
+                    <div class="column">
+                        <h5 class="title is-5 has-text-white">Police Reform</h5>
+                    </div>
+                    <div class="column">
+                        <h5 class="title is-5 has-text-white">Incarceration Reform </h5>
+                    </div>
+                    <div class="column">
+                        <h5 class="title is-5 has-text-white">Legal Defense Funds</h5>
+                    </div>
+                    <div class="column">
+                        <h5 class="title is-5 has-text-white">Black LGBTQ Funds/Organizations</h5>
+                    </div>
                 </div>
             </div>
+
+            <div id="schedule-content">
+
+            </div>
+            
         </section>
     </div>
 </body>
