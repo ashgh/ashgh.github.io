@@ -8,8 +8,8 @@ body {
 }
 
 #body-div {
-    margin-left: 1em;
-    margin-right: 1em;
+    padding-left: 5em;
+    padding-right: 5em;
 }
 
 .center-content {
