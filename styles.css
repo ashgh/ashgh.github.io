@@ -7,6 +7,11 @@ body {
     background-color: #363636;
 }
 
+#body-div {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
 .center-content {
     margin-left: auto;
     margin-right: auto;
