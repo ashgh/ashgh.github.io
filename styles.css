@@ -35,6 +35,12 @@ b {
     justify-content: center;
 }
 
+.center-input {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 #link-content {
     display: none;
 }
