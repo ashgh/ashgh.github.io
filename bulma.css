@@ -991,7 +991,7 @@ table th {
     padding: 1.5rem; }
   @media screen and (min-width: 769px), print {
     .hero.is-medium .hero-body {
-      padding: 9rem 1.5rem; } }
+      padding: 2em; } }
   @media screen and (min-width: 769px), print {
     .hero.is-large .hero-body {
       padding: 18rem 1.5rem; } }
@@ -1043,7 +1043,7 @@ table th {
 .hero-body {
   flex-grow: 1;
   flex-shrink: 0;
-  padding: 3rem 1.5rem; }
+  padding: 2em; }
 
 .section {
   padding: 3rem 1.5rem; }

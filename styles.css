@@ -10,6 +10,7 @@ body {
 #body-div {
     padding-left: 1em;
     padding-right: 1em;
+    padding-bottom: 2em;
 }
 
 ul.show-bullet {
@@ -33,6 +34,10 @@ b {
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
+}
+
+.main-content {
+  padding: 2em;
 }
 
 .center-input {
