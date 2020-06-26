@@ -4,12 +4,29 @@ html {
 
 body {
     min-height: 100%;
-    background-color: #1B2B34;
+    background-color: #282a36;
 }
 
 #body-div {
     padding-left: 1em;
     padding-right: 1em;
+}
+
+ul.show-bullet {
+  margin-left: 1em;
+  list-style: disc;
+}
+
+.hz-line {
+  border-bottom-color: #6272a4;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  display: flex;
+  flex-grow: 1;
+}
+
+b {
+  color: #ffb86c;
 }
 
 .center-content {
