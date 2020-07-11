@@ -137,6 +137,12 @@ ul.show-bullet {
     width: 65%;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 1em;
+}
+
+.links-div {
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 .twitch .twitch-video {
