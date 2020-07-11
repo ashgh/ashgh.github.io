@@ -47,22 +47,28 @@ body {
   margin-right: 1em;
 }
 
+
 #stream-section {
   padding-top: 1em;
   min-height: 500px;
-  border-width: 5px;
-  border-style: none none solid none;
-  border-image-source: linear-gradient(to right, #99ccff, #9966cc);
-  border-image-slice: 1;
+}
+
+#stream-section-border {
+  height: 5px;
+  width: 100%;
+  background-image: linear-gradient(to right, #99ccff,  #9966cc);
 }
 
 #about-us-section {
   padding-top: 1em;
   min-height: 500px;
   background-color: #272265;;
-  border-width: 5px;
-  border-style: none none solid none;
-  border-image-source: linear-gradient(to right, #cc99cc, #6633cc);
+}
+
+#about-us-border {
+  height: 5px;
+  width: 100%;
+  background-image: linear-gradient(to right, #cc99cc, #6633cc);
 }
 
 #game-schedule-section {
@@ -94,21 +100,22 @@ body {
   padding-top: 1em;
   min-height: 500px;
   background-color: #48327B;
-  border-width: 5px;
-  border-style: none none solid none;
-  border-image-source: linear-gradient(to right, #8ED8E7, #8356D7);
-  border-image-slice: 1;
+}
+
+#donation-border {
+  height: 5px;
+  width: 100%;
+  background-image: linear-gradient(to right, #8ED8E7, #8356D7);
 }
 
 #about-content {
   width: 50%;
 }
 
-#title-section {
-  border-width: 5px;
-  border-style: none none solid none;
-  border-image-source: linear-gradient(to right, #9999CC, #333366);
-  border-image-slice: 1;
+#title-section-border {
+  height: 5px;
+  width: 100%;
+  background-image: linear-gradient(to right, #9999CC, #333366);
 }
 
 .center-content {
