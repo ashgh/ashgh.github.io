@@ -4,12 +4,10 @@ html {
 
 body {
     min-height: 100%;
-    background-color: #282a36;
+    background-color: #1E1F3B;
 }
 
 #body-div {
-    padding-left: 1em;
-    padding-right: 1em;
     padding-bottom: 2em;
 }
 
@@ -26,8 +24,101 @@ ul.show-bullet {
   flex-grow: 1;
 }
 
-b {
-  color: #ffb86c;
+.category-number {
+  color: #ffff33;
+}
+
+.blue-span {
+  color: #BFEDF0;
+}
+
+#about-text {
+  font-size: 1.3em;
+}
+
+.yellow-underline-span {
+  color: #ffff33;
+  text-decoration: underline;
+}
+
+.white-title {
+  color: #FFFFFF;
+}
+
+#about-us-open {
+  color: #ffffff;
+  font-size: 2em;;
+}
+
+#naviation-section {
+  padding-top: 1em;
+  margin-bottom: 5em;
+}
+
+.spaced-nav-item {
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+#stream-section {
+  padding-top: 1em;
+  min-height: 500px;
+  border-bottom: 5px solid;
+  border-image-source: linear-gradient(to right, #99ccff, #9966cc);
+  border-image-slice: 1;
+}
+
+#about-us-section {
+  padding-top: 1em;
+  min-height: 500px;
+  background-color: #272265;;
+  border-bottom: 5px solid;
+  border-image-source: linear-gradient(to right, #cc99cc, #6633cc);
+  border-image-slice: 1;
+}
+
+#game-schedule-section {
+  padding-top: 1em;
+  min-height: 500px;
+  padding-bottom: 10em;
+  background-image: linear-gradient(to top, #CBCCFF, #3B3B6D);
+}
+
+#donation-link-section-1 {
+  padding-top: 1em;
+  min-height: 500px;
+  background-color: #333367;
+}
+
+#donation-link-section-2 {
+  padding-top: 1em;
+  min-height: 500px;
+  background-color: #48327B;
+}
+
+#donation-link-section-3 {
+  padding-top: 1em;
+  min-height: 500px;
+  background-color: #333367;
+}
+
+#donation-link-section-4 {
+  padding-top: 1em;
+  min-height: 500px;
+  background-color: #48327B;
+  border-bottom: 5px solid;
+  border-image-source: linear-gradient(to right, #8ED8E7, #8356D7);
+  border-image-slice: 1;
+}
+
+#about-content {
+  width: 50%;
+}
+
+#title-section {
+  border-bottom: 5px solid;
+  border-image-source: linear-gradient(to right, #9999CC, #333366);
+  border-image-slice: 1;
 }
 
 .center-content {
@@ -36,33 +127,20 @@ b {
     justify-content: center;
 }
 
-.main-content {
-  padding: 2em;
-}
-
 .center-input {
   display: flex;
   margin-left: auto;
   margin-right: auto;
 }
 
-#link-content {
-    display: none;
-}
-
-#schedule-content {
-    display: none;
-}
-
 .twitch {
     width: 65%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 2em;
 }
 
 .twitch .twitch-video {
-    padding-top: 56.25%;
+    padding-top: 60%;
     position: relative;
     height: 0;
   }
@@ -89,7 +167,7 @@ b {
   
   .twitch .twitch-video {
     width: 75%;
-    padding-top: 42.1875%;
+    padding-top: 43%;
   }
 
   .twitch .twitch-chat {

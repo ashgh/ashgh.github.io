@@ -11,169 +11,273 @@
 </head>
 
 <body>
-    <div id="body-div" class="has-background-dark">
-        <section class="hero is-dark is-medium">
-            <div class="hero-body">
-                <div class="container has-text-centered">
-                    <h1 class="title">
-                        Playing for Equality: Project Justice
-                    </h1>
-                </div>
+    <nav id="naviation-section" class="navbar has-text-centered" role="navigation" aria-label="main navigation">
+        <a class="navbar-item is-arrowless spaced-nav-item" href="#about-us-section">About Us</a>
+        <a class="navbar-item is-arrowless spaced-nav-item" href="#donation-link-section-1">Donate</a>
+        <a class="navbar-item is-arrowless spaced-nav-item" href="#game-schedule-section">Game Schedule</a>
+    </nav>
 
-                <div class="twitch">
-                    <div class="twitch-video">
-                        <iframe src="https://player.twitch.tv/?channel=seePhor&parent=www.playforequality.org" frameborder="0"
-                            scrolling="no" allowfullscreen="true" height="100%" width="100%">
-                        </iframe>
-                    </div>
-                    <div class="twitch-chat">
-                        <iframe frameborder="0" scrolling="no" id="seePhor"
-                            src="https://www.twitch.tv/embed/seePhor/chat?parent=www.playforequality.org" height="100%"
-                            width="100%">
-                        </iframe>
-                    </div>
-                </div>
+    <div id="body-div">
+        <section id="title-section">
+            <div class="container has-text-centered">
+                <span class="title">Playing for Equality:</span><br />
+                <span class="title">Project Justice</span>
+            </div><br />
         </section>
 
-        <section class="container">
-            <div class="tabs is-centered">
-                <ul>
-                    <li><a onclick="handleTabChange(1)">About</a></li>
-                    <li><a onclick="handleTabChange(2)">Where to Donate</a></li>
-                    <li><a onclick="handleTabChange(3)">Game Schedule</a></li>
-                </ul>
+        <section id="stream-section">
+            <div class="twitch container">
+                <div class="twitch-video">
+                    <iframe src="https://player.twitch.tv/?channel=playforequality&parent=www.playforequality.org"
+                        frameborder="0" scrolling="no" allowfullscreen="true" height="100%" width="100%">
+                    </iframe>
+                </div>
+                <div class="twitch-chat">
+                    <iframe frameborder="0" scrolling="no" id="playforequality"
+                        src="https://www.twitch.tv/embed/playforequality/chat?parent=www.playforequality.org"
+                        height="100%" width="100%">
+                    </iframe>
+                </div>
             </div>
+        </section>
 
-            <div id="about-content" class="has-text-primary has-text-centered">
-                <p>
-                    <b>Playing for Equality: Project Justice</b> is a 24-hour game stream marathon with one goal, to
+        <section id="about-us-section">
+            <h4 class="white-title title is-4 has-text-centered">About Us</h4>
+
+            <div id="about-content" class="container has-text-centered has-text-white">
+                <h4 class="title is-4 is-family-secondary">Playing for Equality: Project Justice</h4>
+                <p id="about-text">
+                    is a <span class="yellow-underline-span">24-hour game stream marathon</span> with one goal, <span class="blue-span">to
                     raise awareness and
-                    help organizations invovled in the effort to dismantle racist idealogies present in today's society.
+                    help organizations involved in the effort to dismantle racist idealogies present in today's society.</span>
                     We will be
-                    live streaming starting at <b>July&nbsp;11th&nbsp;2020&nbsp;8AM&nbsp;PST.</b> If you want to help
-                    out, click on the "Where to Donate" tab. Anything helps!
+                    live streaming starting at <b class="yellow-underline-span">July&nbsp;11th&nbsp;2020&nbsp;8AM&nbsp;PST.</b> If you want to help
+                    out these organizations, click on the "Donate" link above or check out the links below.
                 </p>
-            </div>
+            </div><br />
+        </section>
 
-            <div id="link-content">
-                <h4 class="title is-4 has-text-centered">Donation Links</h4>
+        <section id="donation-link-section-1">
+            <h4 class="title is-4 has-text-centered">Donation Links</h4>
+
+            <div class="container">
                 <div class="columns is-centered">
                     <div class="column">
-                        <h5 class="title is-5">Victim Memorial Funds</h5>
-                        <a href="https://www.gofundme.com/f/elijah-mcclain" target="_blank">Elijah McClain Mother's GoFundMe</a><br />
-                        <a href="https://www.gofundme.com/f/community-support-for-robert-fuller" target="_blank">Community Support forRobert Fuller</a><br />
-                        <a href="https://www.gofundme.com/f/official-gofundme-for-rayshard-brooks" target="_blank">Rayshard BrooksMemorial Fund</a><br />
-                        <a href="https://www.gofundme.com/f/dominiquefells" target="_blank">Dominique “Rem’mie” Fells FuneralCosts</a><br />
-                        <a href="https://www.gofundme.com/f/georgefloyd" target="_blank">George Floyd Memorial Fund</a><br />
+                        <span class="category-number title is-5">1. </span><span class="title is-5">Victim Memorial
+                            Funds</span><br /><br />
+                        <a href="https://www.gofundme.com/f/elijah-mcclain" target="_blank">Elijah McClain Mother's
+                            GoFundMe</a><br />
+                        <a href="https://www.gofundme.com/f/community-support-for-robert-fuller"
+                            target="_blank">Community
+                            Support forRobert Fuller</a><br />
+                        <a href="https://www.gofundme.com/f/official-gofundme-for-rayshard-brooks"
+                            target="_blank">Rayshard
+                            BrooksMemorial Fund</a><br />
+                        <a href="https://www.gofundme.com/f/dominiquefells" target="_blank">Dominique “Rem’mie” Fells
+                            FuneralCosts</a><br />
+                        <a href="https://www.gofundme.com/f/georgefloyd" target="_blank">George Floyd Memorial
+                            Fund</a><br />
                         <a href="https://www.gofundme.com/f/i-run-with-maud" target="_blank">I Run With Maud</a><br />
-                        <a href="https://www.gofundme.com/f/for-james-scurlocks-family" target="_blank">James Scurlock MemorialFund</a><br />
-                        <a href="https://www.gofundme.com/f/in-memory-of-tony-mcdade" target="_blank">Tony Mcdade MemorialFund</a><br />
-                        <a href="https://www.gofundme.com/f/justicefordavidmcatee" target="_blank">David McAtee Memorial Fund</a><br />
-                        <a href="https://www.gofundme.com/f/9v4q2-justice-for-breonna-taylor" target="_blank">Justice for BreonnaTaylor</a><br />
-                        <a href="https://www.gofundme.com/f/gianna-floyd-daughter-of-george-floyd-fund" target="_blank">Gianna FloydFund</a>
+                        <a href="https://www.gofundme.com/f/for-james-scurlocks-family" target="_blank">James Scurlock
+                            MemorialFund</a><br />
+                        <a href="https://www.gofundme.com/f/in-memory-of-tony-mcdade" target="_blank">Tony Mcdade
+                            MemorialFund</a><br />
+                        <a href="https://www.gofundme.com/f/justicefordavidmcatee" target="_blank">David McAtee Memorial
+                            Fund</a><br />
+                        <a href="https://www.gofundme.com/f/9v4q2-justice-for-breonna-taylor" target="_blank">Justice
+                            for BreonnaTaylor</a><br />
+                        <a href="https://www.gofundme.com/f/gianna-floyd-daughter-of-george-floyd-fund"
+                            target="_blank">Gianna FloydFund</a>
                     </div>
+
                     <div class="column">
-                        <h5 class="title is-5">Bail Funds</h5>
-                        <a href="https://secure.givelively.org/donate/the-bail-project" target="_blank">The Bail Project</a><br />
-                        <a href="https://secure.actblue.com/donate/freeblackmamas2020" target="_blank">National Bail Out</a><br />
-                        <a href="https://secure.actblue.com/donate/bailfundscovid" target="_blank">National Bail Fund Network COVID-19 Emergency Response Fund</a><br />
-                        <a href="https://actionnetwork.org/groups/atlanta-solidarity-fund" target="_blank">Atlanta Solidarity Fund</a><br />
-                        <a href="https://actionnetwork.org/fundraising/louisville-community-bail-fund/" target="_blank">Louisville Community Bail Fund</a><br />
-                        <a href="https://chicagobond.org/" target="_blank">Chicago Community Bond Fund</a><br />
-                        <a href="https://www.phillybailfund.org/" target="_blank">Philadelphia Bail Fund</a><br />
-                        <a href="https://nashvillebailfund.org/" target="_blank">Nashville Community Bail Fund</a><br />
-                        <a href="https://www.gofundme.com/f/bail-fund-for-justice-for-george-floyd-protesters" target="_blank">Dallas Bail Fund for Protesters</a><br />
-                        <a href="https://www.paypal.me/freethemall/" target="_blank">(F)empower Community Bond Fund</a><br />
-                        <a href="https://www.paypal.me/peoplesprograms" target="_blank">People’s Program Bail Out Fund</a><br />
-                        <a href="https://www.paypal.me/columbusfreedomfund?" target="_blank">Columbus Freedom Fund</a>
+                        <span class="category-number title is-5">2. </span><span class="title is-5">Black LGBTQ
+                            Funds/Organizations</span><br /><br />
+                        <a href="http://www.thirdwavefund.org/index.html" target="_blank">Third Wave Fund</a><br />
+                        <a href="https://www.instagram.com/the_haf_project/" target="_blank">The Heavenly Angel Fund
+                            Project</a><br />
+                        <a href="https://blacktrans.org/campaigns/coronavirus-grant/donate/" target="_blank">Black Trans
+                            Advocacy Coalition COVID-19 Community Response Grant</a><br />
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdDk1ZaSv_nCqc1wI0KH0ZsOS28FT9tH-BRviA-VUB_Cf-tZg/viewform"
+                            target="_blank">The Nina Pop and Tony McDade Mental Health Recovery Fund</a><br />
+                        <a href="https://www.gofundme.com/f/homeless-black-trans-women-fund" target="_blank">Homeless
+                            Black Trans Women Fund</a><br />
+                        <a href="https://devinmichaellowe.com/black-trans-travel-fund" target="_blank">Black Trans
+                            Travel Fund</a><br />
+                        <a href="https://emergencyreleasefund.com/" target="_blank">Emergency Release Fund</a><br />
+                        <a href="https://www.f2lrelieffund.com/" target="_blank">F2L Relief Fund</a><br />
+                        <a href="https://www.instagram.com/p/CA-pZqhgk4R/" target="_blank">For The Gworls Party</a>
                     </div>
+
                     <div class="column">
-                        <h5 class="title is-5">Mega Funds</h5>
-                        <a href="https://secure.actblue.com/donate/bail_funds_george_floyd" target="_blank">Act Blue Bail, Mutual Aid, and Racial Justice Organization Funds</a><br />
-                        <a href="https://secure.actblue.com/donate/ab_mn" target="_blank">Act Blue Racism and Police Brutality Funds</a><br />
-                        <a href="https://secure.actblue.com/donate/bailfundscovid" target="_blank">Act Blue Bail Funds</a>
-                    </div>
-                    <div class="column">
-                        <h5 class="title is-5">Community Restoration</h5>
-                        <a href="https://secure.actblue.com/donate/bail_funds_george_floyd" target="_blank">Mutual Aid</a><br />
-                        <a href="https://secure.actblue.com/donate/ab_mn" target="_blank">Minnesota Rapid Response Coalition</a><br />
-                        <a href="https://www.welovelakestreet.com/" target="_blank">The Lake Street Council</a><br />
-                        <a href="https://abepmpls.org/pimento-relief-fund" target="_blank">Pimento Relief Fund</a><br />
-                        <a href="https://giving.onecause.com/public/02ad4737-2285-4ad2-91c6-95cd66b423bf/fundraisers/c60e5030-69ce-4853-8b11-4727da5054ad/donate" target="_blank">West Broadway Business & Area Coalition</a><br />
-                        <a href="https://www.gofundme.com/f/rebuilding-oakland-black-businesses?" target="_blank">Rebuilding Oakland Black Businesses Fund</a><br />
-                        <a href="https://www.formyblock.org/" target="_blank">My Block My Hood My City</a>
+                        <span class="category-number title is-5">3. </span><span class="title is-5 ">Policy
+                            Reform</span><br /><br />
+                        <a href="https://www.aclu.org/issues/racial-justice" target="_blank">American Civil Liberties
+                            Union</a><br />
+                        <a href="https://secure.actblue.com/donate/ms_blm_homepage_2019" target="_blank">Black Lives
+                            Matter Global Network</a><br />
+                        <a href="https://secure.actblue.com/contribute/page/support-us?refcode=coc_website_popup"
+                            target="_blank">Color of Change Education Fund</a><br />
+                        <a href="https://advancementproject.org/" target="_blank">Advancement Project</a><br />
+                        <a href="https://www.cjactionfund.org/" target="_blank">Community Justice Action Fund</a><br />
+                        <a href="https://antiracismfund.org/" target="_blank">Anti-Racism Fund</a><br />
+                        <a href="https://support.momsdemandaction.org/campaign/wear-orange-community-partner-support/c284057?c_src=mda-ig"
+                            target="_blank">Moms Demand Action</a><br />
+                        <a href="https://faithintx.org/" target="_blank">Faith in Texas</a><br />
+                        <a href="https://www.takeactionch.com/" target="_blank">Take Action Chapel Hill</a><br />
+                        <a href="https://austinjustice.org/" target="_blank">Austin Justice Coalition</a><br />
+                        <a href="https://dfwalliance.org/" target="_blank">Dallas Alliance Against Racial and Political
+                            Repression</a><br />
+                        <a href="https://www.mightycause.com/organization/Refugee-Dream-Center" target="_blank">The
+                            Refugee Dream Center</a><br />
+                        <a href="https://secure.actblue.com/donate/amor" target="_blank">Alliance to Mobilize Our
+                            Resistance</a><br />
                     </div>
                 </div>
+            </div><br/>
+        </section>
 
+        <section id="donation-link-section-2">
+            <div class="container">
                 <div class="columns is-centered">
                     <div class="column">
-                        <h5 class="title is-5">Community Enrichment</h5>
+                        <span class="category-number title is-5">4. </span><span class="title is-5">Community
+                            Enrichment</span><br /><br />
                         <a href="https://blackandbrownfounders.com/" target="_blank">Black and Brown Founders</a><br />
                         <a href="http://www.blacktablearts.com/" target="_blank">Black Table Arts</a><br />
                         <a href="https://www.embracerace.org/?" target="_blank">Embrace Race</a><br />
                         <a href="https://voixnoire.com/" target="_blank">Voix Noire</a><br />
-                        <a href="https://savingplaces.org/african-american-cultural-heritage#.Xt_nu55KiqA" target="_blank">African American Cultural Heritage Action Fund</a><br />
+                        <a href="https://savingplaces.org/african-american-cultural-heritage#.Xt_nu55KiqA"
+                            target="_blank">African American Cultural Heritage Action Fund</a><br />
                         <a href="https://www.iamsogal.com/" target="_blank">SoGal</a><br />
                         <a href="https://www.assatasdaughters.org/" target="_blank">Assata’s Daughters</a><br />
-                        <a href="https://ctul.ourpowerbase.net/civicrm/contribute/transact?reset=1&id=1" target="_blank">Centro de Trabajadores Unidos en la Lucha</a><br />
-                        <a href="https://twincitiesrecoveryproject.org/" target="_blank">Twin Cities Recovery Project</a><br />
-                        <a href="https://www.gofundme.com/f/theblkprojek" target="_blank">Black Feminist Project</a><br />
-                        <a href="https://www.instagram.com/p/CA6MGcmFhib/" target="_blank">Tournament Haus Ballroom Microgrants</a><br />
+                        <a href="https://ctul.ourpowerbase.net/civicrm/contribute/transact?reset=1&id=1"
+                            target="_blank">Centro de Trabajadores Unidos en la Lucha</a><br />
+                        <a href="https://twincitiesrecoveryproject.org/" target="_blank">Twin Cities Recovery
+                            Project</a><br />
+                        <a href="https://www.gofundme.com/f/theblkprojek" target="_blank">Black Feminist
+                            Project</a><br />
+                        <a href="https://www.instagram.com/p/CA6MGcmFhib/" target="_blank">Tournament Haus Ballroom
+                            Microgrants</a><br />
                         <a href="https://www.boomuniverse.co/#about" target="_blank">BOOM Concepts</a><br />
                         <a href="https://www.1hood.org/" target="_blank">1 Hood</a>
                     </div>
+
                     <div class="column">
-                        <h5 class="title is-5">Youth-oriented & College Funds</h5>
+                        <span class="category-number title is-5">5. </span><span class="title is-5">Youth-oriented &
+                            College
+                            Funds</span><br /><br />
                         <a href="https://www.integratenyc.org/" target="_blank">Integrate NYC</a><br />
                         <a href="https://www.girltrek.org/" target="_blank">GirlTrek</a><br />
                         <a href="https://www.blackgirlscode.com/" target="_blank">Black Girls Code</a><br />
-                        <a href="https://www.knowyourrightscamp.com/" target="_blank">Colin Kaepernick Know Your Rights Camp</a><br />
+                        <a href="https://www.knowyourrightscamp.com/" target="_blank">Colin Kaepernick Know Your Rights
+                            Camp</a><br />
                         <a href="https://www.theconsciouskid.org/donate" target="_blank">The Conscious Kid</a><br />
                         <a href="https://prettybrowngirl.com/" target="_blank">Pretty Brown Girl</a><br />
                         <a href="https://www.gyrlwonder.org/" target="_blank">Gyrl Wonder</a><br />
                         <a href="http://dream-usa.org/our-organization" target="_blank">D.R.E.A.M.</a><br />
-                        <a href="https://savingplaces.org/hope-crew#.Xt_n-55KiqA" target="_blank">HOPE Crew: Hands-On Preservation Experience</a><br />
+                        <a href="https://savingplaces.org/hope-crew#.Xt_n-55KiqA" target="_blank">HOPE Crew: Hands-On
+                            Preservation Experience</a><br />
                         <a href="https://www.tmcf.org/" target="_blank">Thurgood Marshall College Fund</a><br />
                         <a href="https://uncf.org/" target="_blank">United Negro College Fund</a>
                     </div>
+
                     <div class="column">
-                        <h5 class="title is-5 ">Disabled BIPOC</h5>
-                        <a href="https://behearddc.org/" target="_blank">Helping Educate to Advance the Rights of Deaf Communities </a><br />
-                        <a href="http://www.rampyourvoice.com/" target="_blank">Ramp Your Voice! With Vilissa</a><br />
-                        <a href="https://autismandrace.com/autistic-people-of-color-fund/" target="_blank">Autistic People of Color Fund</a><br />
-                        <a href="https://www.facebook.com/disabilityjusticecultureclub/" target="_blank">Disability Justice Culture Club</a><br />
-                        <a href="https://www.flipcause.com/secure/cause_pdetails/OTMxNQ==" target="_blank">Sins Invalid</a><br />
-                        <a href="https://harriettubmancollective.tumblr.com/post/150072319030/htcvision4blacklives" target="_blank">The Harriet Tubman Collective</a><br />
-                    </div>
-                    <div class="column">
-                        <h5 class="title is-5 ">Policy Reform</h5>
-                        <a href="https://www.aclu.org/issues/racial-justice" target="_blank">American Civil Liberties Union</a><br />
-                        <a href="https://secure.actblue.com/donate/ms_blm_homepage_2019" target="_blank">Black Lives Matter Global Network</a><br />
-                        <a href="https://secure.actblue.com/contribute/page/support-us?refcode=coc_website_popup" target="_blank">Color of Change Education Fund</a><br />
-                        <a href="https://advancementproject.org/" target="_blank">Advancement Project</a><br />
-                        <a href="https://www.cjactionfund.org/" target="_blank">Community Justice Action Fund</a><br />
-                        <a href="https://antiracismfund.org/" target="_blank">Anti-Racism Fund</a><br />
-                        <a href="https://support.momsdemandaction.org/campaign/wear-orange-community-partner-support/c284057?c_src=mda-ig"  target="_blank">Moms Demand Action</a><br />
-                        <a href="https://faithintx.org/" target="_blank">Faith in Texas</a><br />
-                        <a href="https://www.takeactionch.com/" target="_blank">Take Action Chapel Hill</a><br />
-                        <a href="https://austinjustice.org/" target="_blank">Austin Justice Coalition</a><br />
-                        <a href="https://dfwalliance.org/" target="_blank">Dallas Alliance Against Racial and Political Repression</a><br />
-                        <a href="https://www.mightycause.com/organization/Refugee-Dream-Center"  target="_blank">The Refugee Dream Center</a><br />
-                        <a href="https://secure.actblue.com/donate/amor" target="_blank">Alliance to Mobilize Our Resistance</a><br />
+                        <span class="category-number title is-5">6. </span><span class="title is-5">Community
+                            Restoration</span><br /><br />
+                        <a href="https://secure.actblue.com/donate/bail_funds_george_floyd" target="_blank">Mutual
+                            Aid</a><br />
+                        <a href="https://secure.actblue.com/donate/ab_mn" target="_blank">Minnesota Rapid Response
+                            Coalition</a><br />
+                        <a href="https://www.welovelakestreet.com/" target="_blank">The Lake Street Council</a><br />
+                        <a href="https://abepmpls.org/pimento-relief-fund" target="_blank">Pimento Relief Fund</a><br />
+                        <a href="https://giving.onecause.com/public/02ad4737-2285-4ad2-91c6-95cd66b423bf/fundraisers/c60e5030-69ce-4853-8b11-4727da5054ad/donate"
+                            target="_blank">West Broadway Business & Area Coalition</a><br />
+                        <a href="https://www.gofundme.com/f/rebuilding-oakland-black-businesses?"
+                            target="_blank">Rebuilding
+                            Oakland Black Businesses Fund</a><br />
+                        <a href="https://www.formyblock.org/" target="_blank">My Block My Hood My City</a>
                     </div>
                 </div>
+            </div><br/>
+        </section>
 
+        <section id="donation-link-section-3">
+            <div class="container">
                 <div class="columns is-centered">
                     <div class="column">
-                        <h5 class="title is-5">Police Reform</h5>
-                        <a href="https://www.nlg-npap.org/donate/" target="_blank">The National Police Accountability Project</a><br />
+                        <span class="category-number title is-5">7. </span><span class="title is-5">Bail
+                            Funds</span><br /><br />
+                        <a href="https://secure.givelively.org/donate/the-bail-project" target="_blank">The Bail
+                            Project</a><br />
+                        <a href="https://secure.actblue.com/donate/freeblackmamas2020" target="_blank">National Bail
+                            Out</a><br />
+                        <a href="https://secure.actblue.com/donate/bailfundscovid" target="_blank">National Bail Fund
+                            Network COVID-19 Emergency Response Fund</a><br />
+                        <a href="https://actionnetwork.org/groups/atlanta-solidarity-fund" target="_blank">Atlanta
+                            Solidarity Fund</a><br />
+                        <a href="https://actionnetwork.org/fundraising/louisville-community-bail-fund/"
+                            target="_blank">Louisville Community Bail Fund</a><br />
+                        <a href="https://chicagobond.org/" target="_blank">Chicago Community Bond Fund</a><br />
+                        <a href="https://www.phillybailfund.org/" target="_blank">Philadelphia Bail Fund</a><br />
+                        <a href="https://nashvillebailfund.org/" target="_blank">Nashville Community Bail Fund</a><br />
+                        <a href="https://www.gofundme.com/f/bail-fund-for-justice-for-george-floyd-protesters"
+                            target="_blank">Dallas Bail Fund for Protesters</a><br />
+                        <a href="https://www.paypal.me/freethemall/" target="_blank">(F)empower Community Bond
+                            Fund</a><br />
+                        <a href="https://www.paypal.me/peoplesprograms" target="_blank">People’s Program Bail Out
+                            Fund</a><br />
+                        <a href="https://www.paypal.me/columbusfreedomfund?" target="_blank">Columbus Freedom Fund</a>
+                    </div>
+
+                    <div class="column">
+                        <span class="category-number title is-5">8. </span><span class="title is-5">Mega
+                            Funds</span><br /><br />
+                        <a href="https://secure.actblue.com/donate/bail_funds_george_floyd" target="_blank">Act Blue
+                            Bail, Mutual Aid, and Racial Justice Organization Funds</a><br />
+                        <a href="https://secure.actblue.com/donate/ab_mn" target="_blank">Act Blue Racism and Police
+                            Brutality Funds</a><br />
+                        <a href="https://secure.actblue.com/donate/bailfundscovid" target="_blank">Act Blue Bail
+                            Funds</a>
+                    </div>
+
+                    <div class="column">
+                        <span class="category-number title is-5">9. </span><span class="title is-5 ">Disabled
+                            BIPOC</span><br /><br />
+                        <a href="https://behearddc.org/" target="_blank">Helping Educate to Advance the Rights of Deaf
+                            Communities </a><br />
+                        <a href="http://www.rampyourvoice.com/" target="_blank">Ramp Your Voice! With Vilissa</a><br />
+                        <a href="https://autismandrace.com/autistic-people-of-color-fund/" target="_blank">Autistic
+                            People of Color Fund</a><br />
+                        <a href="https://www.facebook.com/disabilityjusticecultureclub/" target="_blank">Disability
+                            Justice Culture Club</a><br />
+                        <a href="https://www.flipcause.com/secure/cause_pdetails/OTMxNQ==" target="_blank">Sins
+                            Invalid</a><br />
+                        <a href="https://harriettubmancollective.tumblr.com/post/150072319030/htcvision4blacklives"
+                            target="_blank">The Harriet Tubman Collective</a><br />
+                    </div>
+                </div>
+            </div><br/>
+        </section>
+
+        <section id="donation-link-section-4">
+            <div class="container">
+                <div class="columns is-centered ">
+                    <div class="column">
+                        <span class="category-number title is-5">10. </span><span class="title is-5">Police
+                            Reform</span><br /><br />
+                        <a href="https://www.nlg-npap.org/donate/" target="_blank">The National Police Accountability
+                            Project</a><br />
                         <a href="https://www.joincampaignzero.org/" target="_blank">Campaign Zero</a><br />
-                        <a href="https://www.changethenypd.org/" target="_blank">Communities United for Police Reform</a><br />
-                        <a href="https://www.cuapb.org/what_we_do" target="_blank">Communities United Against Police Brutality</a><br />
+                        <a href="https://www.changethenypd.org/" target="_blank">Communities United for Police
+                            Reform</a><br />
+                        <a href="https://www.cuapb.org/what_we_do" target="_blank">Communities United Against Police
+                            Brutality</a><br />
                         <a href="http://www.equalityforflatbush.org/" target="_blank">Equality for Flatbush</a>
                     </div>
                     <div class="column">
-                        <h5 class="title is-5">Incarceration Reform </h5>
+                        <span class="category-number title is-5">11. </span><span class="title is-5">Incarceration
+                            Reform </span><br /><br />
                         <a href="http://rappcampaign.com/" target="_blank">Release Aging People in Prison</a><br />
                         <a href="https://www.nonewjails.nyc/" target="_blank">No New Jails NYC</a><br />
                         <a href="https://eji.org/" target="_blank">Equal Justice Initiative</a><br />
@@ -182,31 +286,25 @@
                         <a href="https://www.vera.org/about" target="_blank">Vera Institute of Justice</a>
                     </div>
                     <div class="column">
-                        <h5 class="title is-5">Legal Defense Funds</h5>
-                        <a href="https://org2.salsalabs.com/o/6857/p/salsa/donation/common/public/?donate_page_KEY=15780&amp;_ga=2.187165864.1602954306.1591044385-2004584457.1591044385" target="_blank">NAACP Legal Defense and Educational Fund</a><br />
+                        <span class="category-number title is-5">12. </span><span class="title is-5">Legal Defense
+                            Funds</span><br /><br />
+                        <a href="https://org2.salsalabs.com/o/6857/p/salsa/donation/common/public/?donate_page_KEY=15780&amp;_ga=2.187165864.1602954306.1591044385-2004584457.1591044385"
+                            target="_blank">NAACP Legal Defense and Educational Fund</a><br />
                         <a href="https://www.legalrightscenter.org/" target="_blank">Legal Rights Center</a><br />
                         <a href="https://amistadlaw.org/" target="_blank">Amistad Law Project</a><br />
-                        <a href="https://transgenderlawcenter.org/programs/blmp" target="_blank">Transgender Law Center Black LGBTQIA+ Migrant Project</a><br />
+                        <a href="https://transgenderlawcenter.org/programs/blmp" target="_blank">Transgender Law Center
+                            Black LGBTQIA+ Migrant Project</a><br />
                         <a href="https://moralgovernance.org/" target="_blank">Moral Governance</a><br />
                         <a href="https://www.restoringjustice.org/" target="_blank">Restoring Justice</a><br />
                         <a href="https://upagainstthelaw.org/" target="_blank">Up Against The Law Legal Collective</a>
                     </div>
-                    <div class="column">
-                        <h5 class="title is-5">Black LGBTQ Funds/Organizations</h5>
-                        <a href="http://www.thirdwavefund.org/index.html" target="_blank">Third Wave Fund</a><br />
-                        <a href="https://www.instagram.com/the_haf_project/" target="_blank">The Heavenly Angel Fund Project</a><br />
-                        <a href="https://blacktrans.org/campaigns/coronavirus-grant/donate/" target="_blank">Black Trans Advocacy Coalition COVID-19 Community Response Grant</a><br />
-                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdDk1ZaSv_nCqc1wI0KH0ZsOS28FT9tH-BRviA-VUB_Cf-tZg/viewform" target="_blank">The Nina Pop and Tony McDade Mental Health Recovery Fund</a><br />
-                        <a href="https://www.gofundme.com/f/homeless-black-trans-women-fund" target="_blank">Homeless Black Trans Women Fund</a><br />
-                        <a href="https://devinmichaellowe.com/black-trans-travel-fund" target="_blank">Black Trans Travel Fund</a><br />
-                        <a href="https://emergencyreleasefund.com/" target="_blank">Emergency Release Fund</a><br />
-                        <a href="https://www.f2lrelieffund.com/" target="_blank">F2L Relief Fund</a><br />
-                        <a href="https://www.instagram.com/p/CA-pZqhgk4R/" target="_blank">For The Gworls Party</a>
-                    </div>
                 </div>
             </div>
+        </section>
 
-            <div id="schedule-content">
+        <section id="game-schedule-section">
+            <h4 class="title is-4 has-text-centered">Game Schedule</h4>
+            <div class="container">
                 <table class="table center-content">
                     <thead>
                         <tr>
@@ -217,86 +315,116 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td></td>
-                            <td>Monster Hunter World</td>
+                            <td>8:00 - 8:30 AM</td>
+                            <td>Professional Fishing</td>
+                            <td>Nothing like a pike measuring contest</td>
                         </tr>
                         <tr>
-                            <td></td>
-                            <td>Borderlands 3</td>
+                            <td>8:30 - 9:00 AM</td>
+                            <td>Quake Champions</td>
+                            <td>Watch David destory us at this game</td>
                         </tr>
                         <tr>
-                            <td></td>
-                            <td>Streets of Rage 4</td>
+                            <td>9:00 - 11:00 AM</td>
+                            <td>Call of Duty: Warzone</td>
+                            <td>Going for a squad win</td>
                         </tr>
                         <tr>
-                            <td></td>
-                            <td>COD: Warzone</td>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td>Ice Lakes</td>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td>Human Fall Flat</td>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td>Marvel v. Capcom 3</td>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td>Overcooked 2/Moving Out</td>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td>Broforce</td>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td>Vermintide 2</td>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td>Monster Train</td>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td>Hero Siege</td>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td>Risk of Rain 2</td>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td>Gunfire Reborn</td>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td>Soul Calibur 6</td>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td>NBA 2k20</td>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td>Injustice</td>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td>Mario Party 7</td>
-                        </tr>
-                        <tr>
-                            <td></td>
+                            <td>11:30 - 12:30 PM</td>
                             <td>Project +</td>
+                            <td>Smash brothers project M successor</td>
                         </tr>
                         <tr>
-                            <td></td>
-                            <td>Super Mario Strikers</td>
+                            <td>12:30 - 1:30 PM</td>
+                            <td>Marvel vs Capcom 3</td>
+                            <td>IT'S MAHVEL BABY</td>
                         </tr>
-                    </tbody> 
+                        <tr>
+                            <td>1:30 - 2:30 PM</td>
+                            <td>Dragon Ball Fighterz</td>
+                            <td>Dr. Slug should be in this game</td>
+                        </tr>
+                        <tr>
+                            <td>2:30 - 3:30 PM</td>
+                            <td>Sould Calibur 6</td>
+                            <td>Welcome back to the stage of history</td>
+                        </tr>
+                        <tr>
+                            <td>3:30 - 4:30 PM</td>
+                            <td>Marvel v. Capcom Infinite</td>
+                            <td>IT'S MAHVEL AGAIN BABY</td>
+                        </tr>
+                        <tr>
+                            <td>4:30 - 5:00 PM</td>
+                            <td>Quiplash</td>
+                            <td>We think we are funny</td>
+                        </tr>
+                        <tr>
+                            <td>5:00 - 5:30 PM</td>
+                            <td>Survive the Internet</td>
+                            <td>Remember the 90s?</td>
+                        </tr>
+                        <tr>
+                            <td>5:30 - 6:00 PM</td>
+                            <td>Jackbox</td>
+                            <td>We might not be funny</td>
+                        </tr>
+                        <tr>
+                            <td>6:00 - 7:00 PM</td>
+                            <td>the Cycle</td>
+                            <td>Watch us shoot and collect mushrooms</td>
+                        </tr>
+                        <tr>
+                            <td>7:00 - 8:00 PM</td>
+                            <td>No Man's Sky</td>
+                            <td>who's sky is this?</td>
+                        </tr>
+                        <tr>
+                            <td>8:00 - 9:00 PM</td>
+                            <td>Super Mario Strikers</td>
+                            <td>Imma Wario, Imma gonna win</td>
+                        </tr>
+                        <tr>
+                            <td>9:00 - 11:00 PM</td>
+                            <td>NBA 2K20</td>
+                            <td>Lakers in 4</td>
+                        </tr>
+                        <tr>
+                            <td>11:00 - 11:30 PM</td>
+                            <td>Mario Party 5</td>
+                            <td>This game is whack</td>
+                        </tr>
+                        <tr>
+                            <td>11:30 - 2:00 AM</td>
+                            <td>Gunfire Reborn</td>
+                            <td>This game is probably the best on the list</td>
+                        </tr>
+                        <tr>
+                            <td>2:00 - 3:00 AM</td>
+                            <td>Human Fall Flat</td>
+                            <td>We should be pretty drunk by this point</td>
+                        </tr>
+                        <tr>
+                            <td>3:00 - 4:00 AM</td>
+                            <td>Castle Crashers</td>
+                            <td>Side scrolling goodness</td>
+                        </tr>
+                        <tr>
+                            <td>4:00 - 5:00 AM</td>
+                            <td>Vermintide 2</td>
+                            <td>This is to wake us up</td>
+                        </tr>
+                        <tr>
+                            <td>5:00 - 6:00 AM</td>
+                            <td>Descenders</td>
+                            <td>Heard you like bikes and sick jumps</td>
+                        </tr>
+                        <tr>
+                            <td>7:00 - 8:00 AM</td>
+                            <td>Hero Siege</td>
+                            <td>We have done it!</td>
+                        </tr>
+                    </tbody>
                 </table>
             </div>
         </section>
