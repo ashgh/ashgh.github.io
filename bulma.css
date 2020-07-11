@@ -299,7 +299,7 @@ table th {
     font-size: 0.75rem; }
 
 .table {
-  background-color: transparent;
+  background-color: #333367;
   color: #8be9fd; }
   .table td,
   .table th {
